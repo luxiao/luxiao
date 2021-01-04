@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T02:47:34.119Z" agent="5.0 (Macintosh)" etag="g6ZJDGXV8XhwBAnhPLJU" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-04T03:24:51.664Z" agent="5.0 (Macintosh)" etag="HyhWus1XHdDpKU1huM3E" version="14.1.4" type="github">
   <diagram id="JvHWomXTufXELanwR_23" name="第 1 页">
     <mxGraphModel dx="1026" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -84,6 +84,11 @@
         </mxCell>
         <mxCell id="sVGBowNL3PxadWzg95NV-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sVGBowNL3PxadWzg95NV-29" target="sVGBowNL3PxadWzg95NV-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVGBowNL3PxadWzg95NV-38" value="验证通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sVGBowNL3PxadWzg95NV-32">
+          <mxGeometry x="-0.24" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sVGBowNL3PxadWzg95NV-29" value="人机对抗服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="800" width="120" height="60" as="geometry" />
