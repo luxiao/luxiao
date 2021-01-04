@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T06:48:10.014Z" agent="5.0 (Macintosh)" etag="GQ4USfO2CNg3w1TSo02o" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-04T02:47:34.119Z" agent="5.0 (Macintosh)" etag="g6ZJDGXV8XhwBAnhPLJU" version="14.1.4" type="github">
   <diagram id="JvHWomXTufXELanwR_23" name="第 1 页">
     <mxGraphModel dx="1026" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,8 +74,13 @@
         <mxCell id="sVGBowNL3PxadWzg95NV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sVGBowNL3PxadWzg95NV-28" target="sVGBowNL3PxadWzg95NV-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sVGBowNL3PxadWzg95NV-28" value="反向代理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="700" width="120" height="60" as="geometry" />
+        <mxCell id="sVGBowNL3PxadWzg95NV-37" value="可疑用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sVGBowNL3PxadWzg95NV-30">
+          <mxGeometry x="-0.4333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVGBowNL3PxadWzg95NV-28" value="反向代理服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sVGBowNL3PxadWzg95NV-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sVGBowNL3PxadWzg95NV-29" target="sVGBowNL3PxadWzg95NV-31">
           <mxGeometry relative="1" as="geometry" />
@@ -83,8 +88,21 @@
         <mxCell id="sVGBowNL3PxadWzg95NV-29" value="人机对抗服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sVGBowNL3PxadWzg95NV-31" value="在线服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sVGBowNL3PxadWzg95NV-31" value="在线服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sVGBowNL3PxadWzg95NV-33" value="Label" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sVGBowNL3PxadWzg95NV-28" target="sVGBowNL3PxadWzg95NV-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="720" as="sourcePoint" />
+            <mxPoint x="390" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="719" />
+              <mxPoint x="360" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sVGBowNL3PxadWzg95NV-34" value="正常用户" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="sVGBowNL3PxadWzg95NV-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
