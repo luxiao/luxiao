@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T12:41:31.573Z" agent="5.0 (Macintosh)" etag="sGlkx3hjJGc7UABI_H7e" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-28T12:44:48.681Z" agent="5.0 (Macintosh)" etag="6cyuvkIiwHvQChldcH8K" version="14.6.6" type="github" pages="2">
   <diagram id="JvHWomXTufXELanwR_23" name="第 1 页">
     <mxGraphModel dx="1026" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -292,14 +292,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LGdwrQ51Qsjt47GM06xy-54" value="不通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K_xGza6u8FxMIQIgxhCt-1" source="LGdwrQ51Qsjt47GM06xy-47" target="LGdwrQ51Qsjt47GM06xy-53">
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K_xGza6u8FxMIQIgxhCt-1" source="LGdwrQ51Qsjt47GM06xy-47" target="LGdwrQ51Qsjt47GM06xy-60">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-62" value="不通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LGdwrQ51Qsjt47GM06xy-61">
+          <mxGeometry x="-0.7" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="4" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="LGdwrQ51Qsjt47GM06xy-47" value="对抗结果" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
           <mxGeometry x="945" y="380" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LGdwrQ51Qsjt47GM06xy-53" value="终止" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
-          <mxGeometry x="935" y="520" width="100" height="60" as="geometry" />
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-60" value="终止" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
+          <mxGeometry x="935" y="500" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
