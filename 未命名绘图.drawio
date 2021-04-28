@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T11:22:12.610Z" agent="5.0 (Macintosh)" etag="3zt6txCby__iJMyK2RJ_" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-28T12:41:31.573Z" agent="5.0 (Macintosh)" etag="sGlkx3hjJGc7UABI_H7e" version="14.6.6" type="github" pages="2">
   <diagram id="JvHWomXTufXELanwR_23" name="第 1 页">
     <mxGraphModel dx="1026" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -270,15 +270,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LGdwrQ51Qsjt47GM06xy-35" value="是否受保护" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
-          <mxGeometry x="750" y="280" width="80" height="80" as="geometry" />
+          <mxGeometry x="750" y="260" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LGdwrQ51Qsjt47GM06xy-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="K_xGza6u8FxMIQIgxhCt-1" source="LGdwrQ51Qsjt47GM06xy-40" target="LGdwrQ51Qsjt47GM06xy-47">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="985" y="390" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K_xGza6u8FxMIQIgxhCt-1" source="LGdwrQ51Qsjt47GM06xy-40" target="LGdwrQ51Qsjt47GM06xy-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LGdwrQ51Qsjt47GM06xy-40" value="人机对抗服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
-          <mxGeometry x="925" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="925" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LGdwrQ51Qsjt47GM06xy-45" value="目标网站" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K_xGza6u8FxMIQIgxhCt-1" source="LGdwrQ51Qsjt47GM06xy-44" target="LGdwrQ51Qsjt47GM06xy-31">
           <mxGeometry relative="1" as="geometry" />
@@ -294,8 +292,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LGdwrQ51Qsjt47GM06xy-47" value="对抗结果" style="rhombus;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-54" value="不通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K_xGza6u8FxMIQIgxhCt-1" source="LGdwrQ51Qsjt47GM06xy-47" target="LGdwrQ51Qsjt47GM06xy-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-47" value="对抗结果" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
           <mxGeometry x="945" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-53" value="终止" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
+          <mxGeometry x="935" y="520" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
