@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T10:00:59.654Z" agent="5.0 (Macintosh)" etag="XJ0IhSgpFCbbc-XbW72-" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-28T10:17:59.736Z" agent="5.0 (Macintosh)" etag="tXbVO25NgHamfn-0WWiR" version="14.6.6" type="github" pages="2">
   <diagram id="JvHWomXTufXELanwR_23" name="第 1 页">
     <mxGraphModel dx="1026" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -190,9 +190,14 @@
         <mxCell id="LGdwrQ51Qsjt47GM06xy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K_xGza6u8FxMIQIgxhCt-1" source="LGdwrQ51Qsjt47GM06xy-1" target="LGdwrQ51Qsjt47GM06xy-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="290" />
-              <mxPoint x="310" y="290" />
+              <mxPoint x="370" y="280" />
+              <mxPoint x="370" y="280" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-22" value="可疑流量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LGdwrQ51Qsjt47GM06xy-19">
+          <mxGeometry x="-0.2286" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LGdwrQ51Qsjt47GM06xy-1" value="反向代理（Nginx）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
@@ -210,24 +215,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LGdwrQ51Qsjt47GM06xy-4" value="目标服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
-          <mxGeometry x="240" y="430" width="140" height="60" as="geometry" />
+          <mxGeometry x="305" y="430" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LGdwrQ51Qsjt47GM06xy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="K_xGza6u8FxMIQIgxhCt-1" source="LGdwrQ51Qsjt47GM06xy-10" target="LGdwrQ51Qsjt47GM06xy-1">
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-23" value="防御配置" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K_xGza6u8FxMIQIgxhCt-1" source="LGdwrQ51Qsjt47GM06xy-10" target="LGdwrQ51Qsjt47GM06xy-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="260" />
-              <mxPoint x="510" y="260" />
+              <mxPoint x="540" y="260" />
+              <mxPoint x="540" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LGdwrQ51Qsjt47GM06xy-14" value="配置防御" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LGdwrQ51Qsjt47GM06xy-11">
-          <mxGeometry x="0.0667" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="LGdwrQ51Qsjt47GM06xy-10" value="控制台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
-          <mxGeometry x="455" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LGdwrQ51Qsjt47GM06xy-16" value="客户端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
           <mxGeometry x="250" y="60" width="40" height="20" as="geometry" />
@@ -236,7 +235,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LGdwrQ51Qsjt47GM06xy-18" value="人机对抗组件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="K_xGza6u8FxMIQIgxhCt-1">
-          <mxGeometry x="240" y="310" width="140" height="60" as="geometry" />
+          <mxGeometry x="305" y="310" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-24" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="K_xGza6u8FxMIQIgxhCt-1" target="LGdwrQ51Qsjt47GM06xy-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="240" as="sourcePoint" />
+            <mxPoint x="280" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LGdwrQ51Qsjt47GM06xy-25" value="可信流量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LGdwrQ51Qsjt47GM06xy-24">
+          <mxGeometry x="0.1818" y="1" relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
