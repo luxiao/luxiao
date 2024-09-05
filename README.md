@@ -1,4 +1,12 @@
 ### Hi there 👋
+- 🔭 I’m currently working on hacking life.
+- 🌱 I’m currently learning coding.
+- 👯 I’m looking to collaborate on enriching.
+- 🤔 I’m looking for help with freedom.
+- 💬 Ask me about coding.
+- 📫 How to reach me: v5 luxiao-_-.
+- 😄 Pronouns: happy hacking.
+- ⚡ Fun fact: I'm a coder, not your pc fixer.
 
 <!--
 **luxiao/luxiao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
