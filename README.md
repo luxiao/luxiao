@@ -1,7 +1,7 @@
 ### Hi there 👋
 - 🔭 I’m currently working on coding.
 - 🌱 I’m currently learning knowledge.
-- 👯 I’m looking to collaborate on enriching.
+- 👯 I’m looking to collaborate on hacking life.
 - 🤔 I’m looking for help with freedom.
 - 💬 Ask me about coding.
 - 📫 How to reach me: silence.
