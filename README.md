@@ -1,10 +1,10 @@
 ### Hi there 👋
-- 🔭 I’m currently working on hacking life.
-- 🌱 I’m currently learning coding.
+- 🔭 I’m currently working on coding.
+- 🌱 I’m currently learning knowledge.
 - 👯 I’m looking to collaborate on enriching.
 - 🤔 I’m looking for help with freedom.
 - 💬 Ask me about coding.
-- 📫 How to reach me: v5 luxiao-_-.
+- 📫 How to reach me: silence.
 - 😄 Pronouns: happy hacking.
 - ⚡ Fun fact: I'm a coder, not your pc fixer.
 
