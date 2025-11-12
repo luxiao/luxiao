@@ -1,11 +1,11 @@
 ### Hi there 👋
 - 🔭 I’m currently working on coding.
-- 🌱 I’m currently learning knowledge.
+- 🌱 I’m currently learning postgresql.
 - 👯 I’m looking to collaborate on hacking life.
 - 🤔 I’m looking for help with freedom.
 - 💬 Ask me about coding.
-- 📫 How to reach me: silence.
-- 😄 Pronouns: happy hacking.
+- 📫 How to reach me: only if you want.
+- 😄 Pronouns: ;; Happy hacking, lux - Emacs ♥ you!
 - ⚡ Fun fact: I'm a coder, not your pc fixer.
 
 <!--
